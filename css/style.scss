@@ -1,18 +1,25 @@
-.circle {
-	width: 100px;
-	height: 100px;
-	border-radius: 10px;
-	background-color: red;
-	
-}
+$color_main: #745a82;
 
-.circle1 {
-	@extend .circle;
-	border: 3px solid black;
-}
+.group1 {
+	background: url('../images/bg_group1.jpg') no-repeat;
+	.title {
+		padding: 50px 0;
+		h3 {
+			color: $color_main;
+			font-weight: normal;
+			text-transform: uppercase;
+		}
+		h2 {
+			color: $color_main;
+			font-weight: bold;
+			text-transform: uppercase;
 
-.circle2 {
-	@extend .circle;
-	float: right;
-}
+		}
+	}
 
+	.item {
+		img {
+			border-radius: 100%;
+		}
+	}
+}

@@ -1,13 +1,16 @@
-.circle, .circle1, .circle2 {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  background-color: red; }
-
-.circle1 {
-  border: 3px solid black; }
-
-.circle2 {
-  float: right; }
+.group1 {
+  background: url("../images/bg_group1.jpg") no-repeat; }
+  .group1 .title {
+    padding: 50px 0; }
+    .group1 .title h3 {
+      color: #745a82;
+      font-weight: normal;
+      text-transform: uppercase; }
+    .group1 .title h2 {
+      color: #745a82;
+      font-weight: bold;
+      text-transform: uppercase; }
+  .group1 .item img {
+    border-radius: 100%; }
 
 /*# sourceMappingURL=style.css.map */
